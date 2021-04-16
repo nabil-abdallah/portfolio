@@ -209,8 +209,8 @@
 		<section id="contact">
 			<div id="infoContact">
 				<div>
-					<img src="img/telephone.png" width="20">06-95-96-97-27
-					<img src="img/mail.png" width="30">azzouz.mohamed238@gmail.com
+					<img src="img/telephone.png" width="20">06-56-71-62-40
+					<img src="img/mail.png" width="30">nabil.abdallah211@gmail.com
 				</div>			
 			</div>
 
@@ -246,7 +246,7 @@
 						}
 						else
 						{
-							$retour = mail('azzouz.mohamed238@gmail.com', $_POST['sujet'], $_POST['message'], 'From: ' . $_POST['email']);
+							$retour = mail('nabil.abdallah211@gmail.com', $_POST['sujet'], $_POST['message'], 'From: ' . $_POST['email']);
 							if($retour)
 							{
 								echo '<p>Votre message a été envoyé.</p>';
