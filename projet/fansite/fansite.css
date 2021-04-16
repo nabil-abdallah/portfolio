@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+	background-color:#1B3B6F;
+	margin:0;
+	padding:0;
+	height:100%;
+}
+/*--------------------------------------header-------------------------------------*/
+
+div#forget div{
+
+display: inline-block;
+
+width: 50%
+
+}
+
+div#forget div.leftbox{
+
+}
+
+div#forget div.rightbox{
+
+}
+
+
+h2{color:#FFFFFF} 
+
+
+nav.menu-nav ul li{
+
+}
+  
+
+nav.menu-nav ul li{
+  list-style-type: none;
+  display: inline-block
+
+}
+
+nav.menu-nav ul li a{
+  color:#1B3B6F;
+  background-color:white;
+  text-decoration: none;
+  padding: 10px
+
+}
+nav.menu-nav ul li:hover a{
+  columns: red;
+  background-color: black ;
+  transition: 0.4s all ;
+}
+
+
+
+/*----------------------------------------------------------------------------------*/
+main {
+	width: 80%;
+	margin: auto;
+	background: ##1B3B6F;
+	margin: auto;
+}
+
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+	text-align: center;
+	color: white;
+	font-size: 1.8em;
+	font-family: 'Staatliches', cursive;
+	background: rgba(147, 143, 143, 0.7); 
+}
+
+.titre{
+	background: rgba(0, 0, 0, 0.7);
+}
+
+/*--------------------------------------ACTU---------------------------------------*/
+
+.actu{
+	background-color: #6b95d3;
+}
+
+.carousel-a {
+  /*padding-top: 1,5vh;*/
+  /*padding-bottom: 5vh;*/
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.carousel-a h1 {
+  font-size: 5vh;
+  font-family: 'arial';
+  color: white;
+  background: grey;
+  max-width: 30%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.carousel-items-b {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+.carousel-item {
+    margin-left: 1rem;
+}
+
+.carousel-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    margin-left: 1rem;
+}
+
+.carousel-item {
+    flex: 1 0 450px;
+    margin-left: 1rem;
+}
+
+.carousel-items-b {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    margin-top: 0;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #53528c;
+    border-radius: 3px;
+}
+
+.card h2 {
+  color: white;
+  background: rgba(147, 143, 143, 0.5);
+  max-width: 50%;
+  text-align: center;
+}
+
+.card p {
+  color: white;
+  background-color: black;
+  margin-top: 0;
+}
+
+.imgcard{
+	width: 60vh;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*---------------------------------video------------------------------------------*/
+
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.teaser{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center
+}
+
+
+.carousel {
+  padding-top: 1,5vh;
+  padding-bottom: 5vh;
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.carousel h1 {
+  font-size: 5vh;
+  font-family: 'arial';
+  color: white;
+  background: grey;
+  max-width: 15%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+.carousel-item {
+    margin-left: 1rem;
+}
+
+.carousel-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    margin-left: 1rem;
+}
+
+.carousel-item {
+    flex: 1 0 450px;
+    margin-left: 1rem;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------*/
+
+#logo {
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+  align-content: center;
+}
+
+.logo1{
+  max-width: 8vh;
+  margin-left: 2vh;
+  
+}
+
+#logo h2 {
+  color: white;
+  background: rgba(147, 143, 143, 0.5);
+  text-align: center;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 3vh; 
+  max-width: 30%;
+}
+
+
+#az{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#az h1{
+  font-size: 2.5em;
+  color: white;
+  font-family: sans-serif;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+.lions{
+	background-color: yellow;
+}
+
+.lionnes{
+	background-color: pink;
+}
+
+.match{
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+.ph2{
+	width: 50vh;
+}
+
+table
+{
+	margin-top: 2vh;
+	margin-left: auto;
+    margin-right: auto;
+	font-size: 4vh;
+	font-family: 'arial';
+	background-color: #717fc4;
+	color: white; 
+}
+td
+{
+	text-align :center;
+	border: 2px solid #ffffff;
+}
+
+.ph1{
+	width: 80vh;
+}
+
+/*--------------------------------------Galerie---------------------------------------*/
+
+.galerie{
+  background-color: pink;
+}
+
+.galerie2{
+  background-color: yellow;
+}
+
+.galerie h1{
+  font-size: 3.5em;
+  background: rgba(147, 143, 143, 0.5);
+  font-family: 'arial';
+  color: white;
+}
+
+.divgalerie h2{
+  margin: 0;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.divgalerie ul{
+  margin: 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*                      formulaire                          */
+
+.contact h1{
+  text-align: center;
+  background-color: white;
+  font-size: 2.5em;
+  font-family: sans-serif;
+}
+
+form {
+  margin: 0 auto;
+  width: 600px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: #1B3B6F;
+  color: white;
+}
+
+textarea{
+  width: 60vh;
+  height: 20vh;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width:60px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+/*textarea {
+  vertical-align: top;
+  height: 5em;
+}*/
+
+.button {
+  padding-left: 90px;
+}
+
+
+button {
+  margin-left: 6em;
+  background-color: blue;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.categorie{
+  display: block;
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------reseaux-----------------------------------------*/
+
+.reseaux{
+
+}
+
+.reseaux h1{
+  text-align: center;
+  font-family: 'arial';
+  font-size: 2.5em;
+  background-color: white;
+}
+
+.img-resaux{
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-resaux img{
+  width: 40vh;
+}

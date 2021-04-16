@@ -1,0 +1,187 @@
+
+.title{
+ color: #fff;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px
+
+}
+
+.pro {color: #9E0E40; 
+}
+
+body
+{ background-image: url(img/allm.png);
+  background-size: cover;
+
+}
+
+div#forget div{
+
+display: inline-block;
+
+width: 50%
+
+}
+
+div#forget div.leftbox{
+
+}
+
+div#forget div.rightbox{
+
+}
+
+
+h2{color:#9E0E40} 
+
+
+nav.menu-nav ul li{
+
+}
+  
+
+nav.menu-nav ul li{
+  list-style-type: none;
+  display: inline-block
+
+}
+
+nav.menu-nav ul li a{
+  color: #fff;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px
+
+}
+nav.menu-nav ul li:hover a{
+  columns: red;
+  background-color: black ;
+  transition: 0.4s all ;
+}
+
+
+
+
+
+footer{
+  /*background-color: red;*/
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.carousel {
+  padding-top: 1,5vh;
+  padding-bottom: 5vh;
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.carousel h1 {
+  font-size: 5vh;
+  font-family: 'arial';
+  color: white;
+  background: grey;
+  max-width: 15%;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+.carousel-item {
+    margin-left: 1rem;
+}
+
+.carousel-item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    margin-left: 1rem;
+}
+
+.carousel-item {
+    flex: 1 0 450px;
+    margin-left: 1rem;
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 250px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    margin-top: 0;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 3px;
+}
+
+.card h2 {
+  color: white;
+  background: rgba(147, 143, 143, 0.5);
+  max-width: 50%;
+  text-align: center;
+}
+
+.card p {
+  color: white;
+  background-color: black;
+  margin-top: 0;
+}
+
+#logo {
+  background: rgba(0, 0, 0, 0.6)
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*flex-wrap: wrap;*/
+  align-content: center;
+}
+
+.logo1{
+  max-width: 8vh;
+  margin-left: 2vh;
+  
+}
+
+#logo h2 {
+  color: white;
+  background: rgba(147, 143, 143, 0.5);
+  text-align: center;
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 3vh; 
+  max-width: 30%;
+}
